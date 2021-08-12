@@ -5,21 +5,7 @@ import java.util.List;
 
 public final class A {
 	
-	//Access Specifiers 
-	//same package and different package
-	//Inheritance   
-	//Abstraction
-	//polymorphism
-	//encapsulation
-	//datatypes
-	//scanner  - methods and return types
-	//static and final
-	//constructor
-	//control statements
-	//String -- methods -- return types
-	//array
-	//Collection  -- methods -- return types
-	//Exception
+	
 	
 	public final static int i = 0;
 	
@@ -31,6 +17,7 @@ public final class A {
 	
 	public void tester2() {
 	//you are getting 25 mobile names from the application
+		System.out.println("Tester 2");
 		
 		
 
