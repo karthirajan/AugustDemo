@@ -32,7 +32,7 @@ public final class A {
 	public void tester2() {
 	//you are getting 25 mobile names from the application
 		
-		
+		System.out.println( "25 mobile names");
 
 	}
 
