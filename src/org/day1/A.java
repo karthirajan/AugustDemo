@@ -35,5 +35,8 @@ public final class A {
 		
 
 	}
+	public void tester3() {
+		System.out.println("this is tester 3");
+	}
 
 }
