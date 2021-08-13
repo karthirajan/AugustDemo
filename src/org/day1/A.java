@@ -3,7 +3,9 @@ package org.day1;
 import java.util.ArrayList;
 import java.util.List;
 
-public final class A {
+import org.java.A;
+
+public  class A {
 	
 	//Access Specifiers 
 	//same package and different package
@@ -21,19 +23,27 @@ public final class A {
 	//Collection  -- methods -- return types
 	//Exception
 	
-	public final static int i = 0;
-	
-	public static void tester1() {
-	
-		System.err.println("error :"+i);
-
+	 public void tester1(int a) {
+		 System.out.println(+a);
+	 }
+ public void tester1(int a,String name) {
+	 System.out.println(+a);
+     System.out.println(name);	 
+ }
+ public void tester1(int a,String name,double d) {
+	 System.out.println(+d);
+	 System.out.println(+a);
+	 System.out.println(name);
+ }
+ 
+	public static void main(String[] args) {
+		A a = new A ();
+		a.tester1(1234);
+		a.tester1(1234, "ezhil");
+		a.tester1(1234, "ezhil", 12.34);
 	}
-	
-	public void tester2() {
-	//you are getting 25 mobile names from the application
-		
-		
 
-	}
 
 }
+
+	\
